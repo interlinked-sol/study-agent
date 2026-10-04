@@ -7,3 +7,21 @@ __pycache__/
 .idea/
 .obsidian/
 .pytest_cache/
+
+# ── 密钥与本地配置（绝不入库）──
+.env
+.env.*
+*.key
+*.pem
+
+# ── 缓存与构建产物 ──
+.ruff_cache/
+.mypy_cache/
+dist/
+*.egg-info/
+*.apkg
+
+# ── 日志与系统文件 ──
+*.log
+.DS_Store
+Thumbs.db
