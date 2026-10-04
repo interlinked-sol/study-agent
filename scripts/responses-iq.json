@@ -1,0 +1,114 @@
+[
+  {
+    "summary": "课程导论：信息质量(IQ)的多种定义、学科定位与知识领域、低质量信息的代价、课程目标与考核方式。",
+    "concepts": [
+      {
+        "name": "Information Quality (IQ)",
+        "definition": "信息科学的一门学科，关注最大化组织信息资产的价值、最小化其风险，并确保信息产品为客户创造价值。",
+        "example": "组织把数据当作资产管理，IQ 负责让这些资产增值而不出事故。",
+        "importance": 5,
+        "source_page": 3,
+        "source_span": "Maximizing the value and minimizing the risk of an organization’s information assets."
+      },
+      {
+        "name": "Fitness for use",
+        "definition": "IQ 的经典定义视角之一：信息适合于其使用场景（正确的时间、地点、人）。",
+        "example": "Right information at the right time, at the right place, for the right people.",
+        "importance": 4,
+        "source_page": 2,
+        "source_span": "Fitness for use"
+      },
+      {
+        "name": "Accurate, complete, and timely",
+        "definition": "IQ 的另一经典定义视角：准确、完整、及时，即无缺陷的信息。",
+        "example": "账单金额准确、字段完整、在截止日前送达。",
+        "importance": 4,
+        "source_page": 2,
+        "source_span": "Accurate, complete, and timely : information that is free from defect"
+      },
+      {
+        "name": "TQM principles applied to Information Products",
+        "definition": "将全面质量管理原则应用于信息产品的构建，是 IQ 的方法论来源。",
+        "example": "像管理产品质量一样管理报表、数据库等信息产品的质量。",
+        "importance": 3,
+        "source_page": 2,
+        "source_span": "The application of Total Quality Management principles to building Information Products"
+      },
+      {
+        "name": "Six domains of IQ",
+        "definition": "IQ 知识体系覆盖的领域集合：价值与业务影响、战略与治理、环境与文化、度量与改进、持续保持、信息架构质量（含 Data Quality）。",
+        "example": "课件将 Data Quality 列于信息架构质量域之下。",
+        "importance": 4,
+        "source_page": 4,
+        "source_span": "Information architecture quality(six domains of IQ)"
+      },
+      {
+        "name": "ISO 8000",
+        "definition": "信息/数据质量领域的国际标准，课程涉及的政策、战略、程序与标准之一。",
+        "example": "企业按 ISO 8000 建立数据质量标准体系。",
+        "importance": 3,
+        "source_page": 10,
+        "source_span": "Information quality policies, strategies, programs, and standards (e.g. ISO 8000)"
+      }
+    ],
+    "exam_points": [
+      {
+        "point": "IQ 的多种定义：accuracy / fitness for use / 无缺陷 / TQM 应用",
+        "reason": "课程目标首条即 Definition of IQ，定义类高频考点",
+        "linked_concepts": ["Information Quality (IQ)", "Fitness for use", "Accurate, complete, and timely"],
+        "source_page": 2,
+        "source_span": "Accurate, complete, and timely : information that is free from defect"
+      },
+      {
+        "point": "IQ 学科的两大关注点：价值最大化+风险最小化、信息产品为客户创造价值",
+        "reason": "学科定位页核心内容",
+        "linked_concepts": ["Information Quality (IQ)"],
+        "source_page": 3,
+        "source_span": "Maximizing the value and minimizing the risk of an organization’s information assets."
+      },
+      {
+        "point": "IQ 知识体系覆盖的领域（含 six domains 与 Data Quality 的归属）",
+        "reason": "结构性知识点，易出简答题",
+        "linked_concepts": ["Six domains of IQ"],
+        "source_page": 4,
+        "source_span": "Information quality strategy & governance"
+      },
+      {
+        "point": "低质量信息的代价：经济损失与生命安全",
+        "reason": "Economic and human cost of poor IQ 是课程目标之一",
+        "linked_concepts": ["Information Quality (IQ)"],
+        "source_page": 5,
+        "source_span": "Cost billions of dollars each year"
+      },
+      {
+        "point": "课程考核方式构成：Exam + Written assignments + Laboratory Exercises",
+        "reason": "考试结构信息",
+        "linked_concepts": [],
+        "source_page": 13,
+        "source_span": "Exam · Written assignments · Laboratory Exercises"
+      }
+    ],
+    "pitfalls": [
+      "IQ ≠ 仅指 accuracy：定义是多视角的（fitness for use、无缺陷、TQM），只答 accuracy 会丢分。",
+      "Data Quality 与 Information Quality 不完全等同：课件把 Data Quality 置于信息架构质量域之下。",
+      "TQM 应用的对象是 Information Products（信息产品），不是泛泛的『信息』。"
+    ],
+    "quiz": [
+      {
+        "q": "IQ 的两个经典定义视角 accuracy 与 fitness for use 有什么区别？",
+        "a": "accuracy 强调信息本身无缺陷（准确、完整、及时）；fitness for use 强调适配使用场景（正确的时间、地点、人）。完整理解需二者结合。",
+        "type": "辨析"
+      },
+      {
+        "q": "某医院因患者信息错误导致用药事故，这体现了 IQ 哪个关注点？",
+        "a": "风险最小化——课件指出 poor IQ 不仅造成经济损失，还可能危及生命（costs lives）。",
+        "type": "应用"
+      },
+      {
+        "q": "「只要数据准确，就是高质量信息」这句话对吗？",
+        "a": "不对。准确只是条件之一，还需完整、及时，并满足 fitness for use（right time, right place, right people）。",
+        "type": "陷阱"
+      }
+    ]
+  }
+]

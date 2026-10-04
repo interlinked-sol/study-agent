@@ -1,0 +1,9 @@
+.venv/
+build/
+__pycache__/
+*.pyc
+
+# 机器相关，不入库
+.idea/
+.obsidian/
+.pytest_cache/
